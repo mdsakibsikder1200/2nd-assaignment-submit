@@ -77,5 +77,73 @@
   padding-top: 55px;
 }
 
+            /* section part-3 */
+ 
+.plant{
+ width: 1140px;
+ height: 130px;
+ margin: 0 auto;
+ text-align: center;
+ margin-top: 80px;
+}   
+
+.plant h2{
+  font-weight: bold;
+  font-size: 50px;
+}
+.plant span{
+  color: #E95A08;
+}
+.plant p{
+  font-size: 20px;
+  color: #8987A1;
+  padding-top: 15px;
+}
+
+/* section part-4 */
+
+.card-main{
+  width: 1140px;
+  /* height: 1185px; */
+  margin: 0 auto;
+  margin-top: 40px;
+   
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.card{
+  width: 270px;
+  height: 484px;
+  margin-top: 10px;
+}
+.card img{
+  width: 270px;
+  height: 320px;
+}
+.card p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 15px;
+
+}
+.card h2{
+ text-align: center; 
+ font-size: 22px;
+ font-weight: bold;
+ padding-top: 8px;
+}
+.card button{
+   width: 270px;
+   height: 50px;
+   margin-top: 15px;
+   font-size: 13px;
+   background-color: #E95A08;
+   color: aliceblue;
+   border: 0
+   
+}
+
 
  
