@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+            /* section part-1 */
 
 .nav-main img{
  width: 130px;
@@ -41,6 +42,40 @@
   .icon{
   color: #000000;
 }
+
+               /* section part-2 */
    
+ .flowers{
+  width: 1140px;
+  height: 460px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+ }  
+.flw h2{
    
+  width: 570px;
+  /* height: 178px; */
+  font-size: 60px;
+  font-weight: bold;
+  padding-top:  162px;
+}
+.flw span{
+  color:#E95A08 ;
+}
+.flw p{
+  font-size: 20px;
+  color: #8987A1;
+  width: 570px;
+  /* height: 108px; */
+  padding-top: 13px;
+}
+.flowers img{
+  width: 570px;
+  height: 355px;
+  padding-top: 55px;
+}
+
+
  
