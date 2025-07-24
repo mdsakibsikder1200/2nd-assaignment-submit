@@ -145,40 +145,80 @@
    
 }
 
-/* section part-5
+/* section part-5 */
 
-.middelest{
+.container {
   width: 1140px;
-  height: 597px;
+  height: 550px;
   margin: 0 auto;
-  align-items: flex-start;
   display: flex;
-  margin-top: 210px;
-  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
-.img-baj{
-   
+
+.img-box {
   width: 540px;
+  height: 100%;
   position: relative;
-
 }
 
-.ig{
-  width: 100%;
-  height: auto;
-
+.main-img {
+  width: 540px;
+  height: 100%;
 }
 
-.tag{
-   position: absolute;
-  width:286px ;
-  height: auto;
+.badge {
+  position: absolute;
+  top: -80px;
+  right: -70px;
+  width: 200px;
+  height: 200px;
+  z-index: 10;
+  box-shadow: #8987a1;
+}
+
+.content-box {
+  width: 540px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-box h2 {
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 40px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.content-box ul {
+  list-style-type: disc;
+  padding-left: 80px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #8987A1;
+  
+}   
+
+
+ 
+
+
+ 
+
+
+
+ 
    
-} */
+
 
 /* section part-6 */
 
-.deals{
+/* .deals{
   width: 1440px;
   height: 138px;
   margin: 0 auto;
@@ -197,8 +237,9 @@
  font-size: 20px;
  color: #8987A1;
  padding-top: 16px;
-}
+} */
 
 
  
+
  
