@@ -3,7 +3,10 @@
   padding: 0;
 }
             /* section part-1 */
-
+/* .all{
+  width: 1140px;
+  margin: 0 auto;
+} */
 .nav-main img{
  width: 130px;
  height: 80px;
@@ -421,6 +424,91 @@ footer {
   margin-top: -200px;
 }
 
- 
+ /* ✅ Responsive styles for flex and grid areas on small devices */
+@media (max-width: 576px) {
+  /* ---------- FLEX LAYOUTS ---------- */
+
+  /* Navbar */
+  .nav-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+  }
+
+  .nav-item {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Hero Section */
+  .flowers {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+
+  .flw h2, .flw p {
+    width: 100%;
+  }
+
+  .flowers img {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  /* Container Section (image + text) */
+  .container {
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+  }
+
+  .img-box,
+  .content-box {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Challenge section */
+  .challenge {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .left-side,
+  .right-side {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    height: auto;
+  }
+
+  .logo-right {
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  /* ---------- GRID LAYOUTS ---------- */
+
+  /* Card Grid */
+  .card-main {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
 
  
